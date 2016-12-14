@@ -1,0 +1,13 @@
+$mobile: 600px;
+$tablet-portrait: 900px;
+$tablet-landscape: 1200px;
+$desktop: 1800px;
+
+$mobile-down: "only screen and (max-width: #{$mobile})";
+$mobile-up: "only screen and (min-width: #{$mobile})";
+$tablet-sm-down: "only screen and (max-width: #{$tablet-portrait})";
+$tablet-sm-up: "only screen and (min-width: #{$tablet-portrait})";
+$tablet-lg-down: "only screen and (max-width: #{$tablet-landscape})";
+$tablet-lg-up: "only screen and (min-width: #{$tablet-landscape})";
+$desktop-down: "only screen and (max-width: #{$desktop})";
+$desktop-up: "only screen and (min-width: #{$desktop})";
